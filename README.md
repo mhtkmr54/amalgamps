@@ -1,0 +1,2 @@
+# amalgamps
+amalgam problem statement

@@ -1,0 +1,39 @@
+/* line 1, ../sass/index.scss */
+#intro {
+  text-align: center;
+}
+/* line 3, ../sass/index.scss */
+#intro a {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/index.scss */
+#gen {
+  display: none;
+}
+
+/* line 10, ../sass/index.scss */
+#acknowledge a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 0.4em;
+}
+
+/* line 16, ../sass/index.scss */
+#projects a,
+#lived a,
+#education a {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 26, ../sass/index.scss */
+body h1, body h2 {
+  font-family: "Open Sans Condensed",cursive;
+}
+/* line 29, ../sass/index.scss */
+body a {
+  font-family: "Open Sans Condensed",cursive;
+  font-weight: 400;
+}

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+
+   <!--- Basic Page Needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>Kreative</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+  
+
+	<!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/css1/bootstrap.css">
+   <link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" >
+
+
+</head>
+<style>
+
+.reveal-modal-bg {
+   position: fixed;
+	height: 100%;
+	width: 100%;
+	background: black;
+	background: rgba(0,0,0,.8);
+	z-index: 100;
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+.reveal-modal {
+        
+	top: 100px;
+	left: 50%;
+	margin-left: -300px;
+   width: 600px;
+	max-width: 600px;
+	background: #fff;
+	position: absolute;
+	z-index: 101;
+	padding: 0;
+	
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	
+}
+
+.reveal-modal .description-box { padding: 18px 36px; }
+.reveal-modal .description-box h4 {
+   font: 15px/24px montserrat-bold, sans-serif;
+	margin-bottom: 18px;
+   color: #111;
+}
+.reveal-modal .description-box p {
+	font: 13px/24px opensans-regular, sans-serif;
+   color: #A1A1A1;
+   margin-bottom: 18px;
+}
+.reveal-modal .description-box .categories {
+   font: 11px/24px opensans-regular, sans-serif;
+   color: #A1A1A1;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   display: block;
+}
+.reveal-modal .description-box .categories i {
+   margin-right: 8px;
+}
+.reveal-modal .link-box {
+   padding: 18px 36px;
+   background: #111;
+   text-align: left;
+}
+.reveal-modal .link-box a {
+   color: #fff;
+	font: 11px/24px opensans-regular, sans-serif;
+	text-transform: uppercase;
+   letter-spacing: 3px;
+   cursor: pointer;
+}
+.reveal-modal a:hover {	color: #00CCCC; }
+.reveal-modal a.close-reveal-modal { margin-left: 28px; }
+
+</style>
+
+
+
+<body data-spy="scroll" data-target="#nav-wrap">
+
+<div class=navbar-default></div>
+	<nav class="navbar navbar-inverse" >
+		<div class="container-fluid" >
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header" color="blue">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar">icon-bar</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;Amalgam 2015</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			 
+				<ul class="nav navbar-nav" class="navbar-default">
+			
+					<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;Events</a></li>
+					<li class="active"><a href="#"><span class="glyphicon glyphicon-calendar"></span>&nbsp;Workshop<span class="sr-only">(current)</span></a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;Lectures</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-picture"></span>&nbsp;Gallery</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-usd"></span>&nbsp;Sponsors</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-bed"></span>&nbsp;Hospitality</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-earphone"></span>&nbsp;Contact</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Team</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	</div>
+  
+
+
+   <div class="jumbotron">
+		  <h1>AMALGAM</h1>
+		  <p></p>
+		  <p><a class="btn btn-primary btn-lg" href="#" role="button">Register</a></p>
+		</div>
+   
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row section-head">
+         <div class="col full">
+
+            <h2>Welcome to Amalgam </h2>
+            <p class="desc">Check out our latest events.</p>
+
+            <p class="intro">On behalf of the entire Amalgam team, we would like to extend a warm welcome to you and hope that you cherish each and every moment of your stay at the beautiful campus of IIT Madras. We constantly strive to make your stay a memorable one. However, in order to enable us to assist you in the best possible way we will require a little cooperation from your side. Everyone willing to attend Amalgam 2014 please register yourself on our website: www.amalgam.iitm.ac.in/. Fill the actual details in the registration form as in the college identity card. 
+            </p>
+
+         </div>
+      </div>
+
+      <div class="row">
+
+		   <!-- Portfolio Wrapper -->
+		   <div id="portfolio-wrapper">
+
+			   <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-01"><img src="images/portfolio/cosmic-sneakers.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Jaagruthi</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-02"><img src="images/portfolio/milk-splash.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Workshop & Demo</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-03"><img src="images/portfolio/eve.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">SOMe</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-04"><img src="images/portfolio/sneaker-splash.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Sponsorship</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-05"><img src="images/portfolio/judah.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Reach IITm</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-06"><img src="images/portfolio/vector-flower.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Online events</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-07"><img src="images/portfolio/clock.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Casting</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-08"><img src="images/portfolio/fields.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Thermo calc</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+		   </div> <!-- Portfolio Wrapper End -->
+
+
+		</div> <!-- End Row -->
+
+
+      <!-- Modal Popup
+	   =========================================================== -->
+
+      <!-- modal-01 -->
+	   <div id="modal-01" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-cosmic-sneakers.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>The Jaagruthi</h4>
+			   <p>Jaagruthi, is an event especially aimed at instilling and enthusing school students with the spirit of Materials Science and Engineering. It is a one day event to bring together creative minds of reputed schools and help them know more about Metallurgical engineering and Material Sciences. It consists of competitions, quizzes and a Lecture by one of a reputed senior faculty members of IIT Madras. This event will give the students a very good exposure to the activities happening at IIT Madras and also inspire them to join the field of Engineering.
+Having witnessed a participation of over 500 students in its first edition. Jaagruthi is back with its second edition during Amalgam. This time bigger and better! The concept of “How things work” a basic level quiz is conducted in every school, after which students are selected to come and attend the big event here at IIT Madras on 22nd August, 2014. Having reached out to approximately 2200 participants in around 22 schools in Chennai. We are all set for the upcoming version of Jaagruthi.</p>
+            <span class="categories"><i class="icon-tag"></i>Amalgam, EVENTS</span>
+		   </div>
+
+         <div class="link-box">
+            <a href="http://www.amalgam.iitm.ac.in">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div><!-- modal-01 End -->
+
+      <!-- modal-02 -->
+	   <div id="modal-02" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-milk-splash.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Workshop & Demo</h4>
+			   <p>From phase transformations to really vast thermodynamic modelling, Metallurgy is filled with phases, there equilibria and their interpretations in the form of the well formulated phase diagrams.
+Ever wondered if you could yourself formulate one? Or maybe calculate the parameters required for the formulation of a Phase Diagram?</p>
+            <span class="categories"><i class="icon-tag"></i>Amalgam, EVENTS</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.amalgam.iitm.ac.in">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-02 End -->
+
+      <!-- modal-03 -->
+	   <div id="modal-03" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-eve.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>SOME</h4>
+			   <p>The most awaited event of this material science weekend ..so called Spirit Of Materials Engineering aka SoME brings you exhibition of experiments that unites radically different manifestations and improvisations on varied themes of undercooling of water, meissner effect, piezoelectric material and many more... come and learn from this exhibition which is a open collaboration from professors and students, with a specific view to collaborating on scientific projects. Increase the aura of your scientific imaginations, infact get a chance of hands on on certain experiments and exhibits. At the end of the visit, engage yourself with a quick quiz and win goodies along with the take away knowledge. Feel free to drop in any ideas that you have on material science. </p>
+            <span class="categories"><i class="icon-tag"></i>Amalgam, EVENTS</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.amalgam.iitm.ac.in">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-03 End -->
+
+      <!-- modal-04 -->
+	   <div id="modal-04" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-sneaker-splash.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Sponsorship</h4>
+			   <p>light</p>
+            <span class="categories"><i class="icon-tag"></i>Amalgam, EVENTS</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.amalgam.iitm.ac.in">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-04 End -->
+
+      <!-- modal-05 -->
+	   <div id="modal-05" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>reaching IITm</h4>
+			   <p>1. Local train: If you do not have heavy luggage, the MRTS Station called "Park Town" on the Beach-Velachery line, opposite to Chennai-Central station, is a good option. From there, you can take a train to "Kasturba Nagar (Adyar)" (which comes after the kotturpuram station) and reach for Madhya Kailash temple and then walk towards west on Sardar Patel Road to campus main gate. From the gate there are IITM buses to the hostels, every 20 minutes.
+2. You can catch a bus just outside the Chennai Central. 18B and 5C are the direct buses to IITM (Get down at Gandhi Mandapam/IITM). From the gate there are IITM buses to the hostels, every 20 minutes.
+3. Hire an auto/taxi to IIT Madras. You can catch institute buses from the IIT Madras main gate to control room. The fare will be roughly Rs.350-380 for a Taxi and Rs.200-250 for an Auto.</p>
+            <span class="categories"><i class="icon-tag"></i>Amalgam, EVENTS</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.amalgam.iitm.ac.in">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-05 End -->
+
+      <!-- modal-06 -->
+	   <div id="modal-06" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-vector-flower.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>online events</h4>
+			   <p>This is an online event and will be done on the internet. Participant will be given a set of 10-12 questions. It consists of sudoku, brain teasers, crosswords, variety of topics ranging from math & logic to ciphers and anagrams. It tests the logical, mathematical and reasoning capabilities of the participants.</p>
+            <span class="categories"><i class="icon-tag"></i>Amalgam, EVENTS</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.amalgam.iitm.ac.in">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-06 End -->
+
+      <!-- modal-07 -->
+	   <div id="modal-07" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-clock.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Casting</h4>
+			   <p>People wanting a Hands-on experience on metal casting, hop on board for the second edition of Metal Casting Workshop here at Amalgam. Casting of metals is a skill you will always require in metallurgy and this event will give you first hand experience on how to make any stuff using moulds. This is sure to teach you not only the basics of metal casting but also the nuances of the trade in a manner you would have never expected. So make it a point to attend this event at on 23rd August at IIT, Madras.</p>
+            <span class="categories"><i class="icon-tag"></i>Amalgam, EVENTS</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.amalgam.iitm.ac.in">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-07 End -->
+
+      <!-- modal-08 -->
+	   <div id="modal-08" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-fields.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Thermo CALC</h4>
+			   <p>Amalgam would like to take the privilege to introduce you to SECOND edition of our Computational workshop on the 23rd of August 2014. From calculating amounts of phases, their compositions, to thermochemical data calculations like enthalpies, heat capacity and activities we would like you to experience the variety “Thermo Calc” has for its users. A software well suited for major thermodynamically computations, calculation of thermodynamical data required for phase diagram formulation to formulation of phase diagram itself. We ensure you that under the guidance of one among the most knowledgeable persons in the field of Phase Diagrams, Professor K C Hari Kumar, you will have an exciting and a high learning experience in the vast field of computational modelling.
+
+Total Seats: 24</p>
+            <span class="categories"><i class="icon-tag"></i>Amalgam, EVENTS</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.amalgam.iitm.ac.in">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-08 End -->
+
+   </section> <!-- Portfolio End -->
+
+   
+
+   
+  
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/scrollspy.js"></script>
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/jquery.reveal.js"></script>
+   <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+   <script src="js/gmaps.js"></script>
+   <script src="js/init.js"></script>
+   <script src="js/smoothscrolling.js"></script>
+
+</body>
+
+</html>

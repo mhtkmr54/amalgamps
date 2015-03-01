@@ -1,0 +1,159 @@
+#moon img{
+	position: fixed;
+	z-index: 3;
+}
+#bg img{
+	position: fixed;
+	z-index: 1;
+}
+#r0{
+	position: absolute;
+	top: 335px;	/*335 center*/
+	left:640px;	/*640 center*/
+	z-index: 4;
+	-webkit-animation: fly_horiz 4s ease-in-out infinite normal forwards;
+	-o-animation: fly_horiz 4s ease-in-out infinite normal forwards;
+	animation: fly_horiz 4s ease-in-out infinite normal forwards;
+	
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;	
+}
+#r1{
+	position: absolute;
+	top: 335px;	/*335 center*/
+	left:640px;	/*640 center*/
+	z-index: 4;
+	-webkit-animation: fly_vert 4s ease-in-out infinite normal forwards;
+	-o-animation: fly_vert 4s ease-in-out infinite normal forwards;
+	animation: fly_vert 4s ease-in-out infinite normal forwards;
+	
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+}
+#pp{
+	position: absolute;
+	z-index: 3;
+	top:50px;
+}
+#clc{
+	position: absolute;
+	z-index: 3;
+	top:90px;
+}
+#reset{
+	position: absolute;
+	z-index: 3;
+	top:130px;
+}
+
+/*=============Horizontal==============*/
+@keyframes fly_horiz{
+	0%{
+		left:930px;
+		z-index: 2;
+	}
+	50%{
+		left:370px;
+		z-index: 2;
+	}
+	51%{
+		left:370px;
+		z-index: 4;
+	}		
+	100%{
+		left:930px;
+		z-index: 4;
+	}	
+}
+@-webkit-keyframes fly_horiz{
+	0%{
+		left:930px;
+		z-index: 2;
+	}
+	50%{
+		left:370px;
+		z-index: 2;
+	}
+	51%{
+		left:370px;
+		z-index: 4;
+	}		
+	100%{
+		left:930px;
+		z-index: 4;
+	}		
+}
+@-o-keyframes fly_horiz{
+	0%{
+		left:930px;
+		z-index: 2;
+	}
+	50%{
+		left:370px;
+		z-index: 2;
+	}
+	51%{
+		left:370px;
+		z-index: 4;
+	}		
+	100%{
+		left:930px;
+		z-index: 4;
+	}		
+}
+
+/*==================Vertical========================*/
+@keyframes fly_vert{
+	0%{
+		top:90px;
+		z-index: 4;
+	}
+	50%{
+		top:585px;
+		z-index: 4;
+	}		
+	51%{
+		top:585px;
+		z-index: 2;
+	}
+	100%{
+		top:90px;
+		z-index:2;
+	}	
+}
+@-webkit-keyframes fly_vert{
+	0%{
+		top:90px;
+		z-index: 4;
+	}
+	50%{
+		top:585px;
+		z-index: 4;
+	}		
+	51%{
+		top:585px;
+		z-index: 2;
+	}
+	100%{
+		top:90px;
+		z-index:2;
+	}	
+}
+@-o-keyframes fly_vert{
+	0%{
+		top:90px;
+		z-index: 4;
+	}
+	50%{
+		top:585px;
+		z-index: 4;
+	}		
+	51%{
+		top:585px;
+		z-index: 2;
+	}
+	100%{
+		top:90px;
+		z-index:2;
+	}	
+}
